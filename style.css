@@ -1,0 +1,85 @@
+body{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./Home\ black.jpeg);
+    
+    font-size: 1.2rem;
+}
+.body{
+    background-color: #8d9db6;
+    border-radius:5px;
+    height: 37rem;
+    padding: 5px 20px;
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.taskbody{
+    background-color: #cfe0e8;
+    border-radius: 5px;
+    overflow: scroll;
+    height: 30rem;
+    font-family: 'Coming Soon', cursive;
+}
+h1{
+    margin: 5px;
+    display:block;
+    margin-bottom: 0px;
+    /* background-color: rgb(74, 74, 241); */
+    display: flexbox;
+}
+h2{
+    color: rgb(0, 0, 255);
+    text-align: left;
+    margin: 12px;
+}
+input{
+    height: 30PX;
+    border: 20px;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 5px;
+    text-align: center;
+}
+body{
+   text-align:center;
+}
+li{
+    text-align: left;
+
+}
+.saveBtn{
+    border-radius: 5px;
+    margin: 10px;
+    background-color: green;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 5px 10px;
+    border: none;
+    width: 60px;
+    height: 30px;
+    
+}
+.inputSave{
+    position: sticky;
+    bottom: 5px;
+}
+.taskDel{
+    background-color: rgb(241, 101, 101);
+    font-size: 15px;
+    font-weight: 900;
+    border: 2px solid black;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    margin-left: 300px; /*took help: the delete button is always aligned to the right, irrespective of the length of the task */
+    display: flex; 
+    margin-right: 20px;
+    
+
+}
